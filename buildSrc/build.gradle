@@ -1,0 +1,44 @@
+// SPDX-Copyright: ©  Basil Peace
+// SPDX-License-Identifier: Apache-2.0
+
+/*plugins {
+  id 'org.fidata.project' version '6.0.1-hotfix-publishPluginJar-SNAPSHOT'
+}*/
+
+ext.rootDir = file('..')
+
+apply from: new File(ext.rootDir, 'buildSrc/gradle/load-properties.gradle')
+
+dependencyLocking.lockAllConfigurations()
+
+repositories {
+  maven {
+    url 'https://fidata.jfrog.io/fidata/plugins-snapshot/' // TODO
+    credentials {
+      username = project.ext.artifactoryUser
+      password = project.ext.artifactoryPassword
+    }
+  }
+}
+
+String basePluginsVersion = '6.0.1-hotfix-publishPluginJar-SNAPSHOT' // TODO
+
+dependencies {
+  runtimeOnly(group: 'org.fidata.project.java', name: 'org.fidata.project.java.gradle.plugin', version: basePluginsVersion) // .status = 'integration'
+  runtimeOnly(group: 'org.fidata.project.groovy', name: 'org.fidata.project.groovy.gradle.plugin', version: basePluginsVersion) // .status = 'integration'
+  runtimeOnly(group: 'org.fidata.plugin', name: 'org.fidata.plugin.gradle.plugin', version: basePluginsVersion) // .status = 'integration'
+}
+
+/*
+TODO:
+configurations.all {
+  resolutionStrategy.dependencySubstitution {
+    substitute module('org.fidata:about-library') with project(':') // TODO
+    substitute module('org.fidata.gradle:gradle-about-plugin') with project(':')
+  }
+}
+
+// TODO
+compatTest.enabled = false
+checkstyleMain.enabled = false
+codenarcMain.enabled = false*/

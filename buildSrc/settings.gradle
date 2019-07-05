@@ -1,0 +1,31 @@
+// SPDX-Copyright: ©  Basil Peace
+// SPDX-License-Identifier: Apache-2.0
+pluginManagement {
+  repositories {
+    maven {
+      url 'https://fidata.jfrog.io/fidata/plugins-snapshot/'
+      credentials {
+        File gradlePropertiesFile = new File(file('..'), Project.GRADLE_PROPERTIES)
+        if (gradlePropertiesFile.exists()) {
+          gradlePropertiesFile.withReader { Reader reader ->
+            Properties properties = new Properties()
+            properties.load(reader)
+            username = properties.getProperty('artifactoryUser')
+            password = properties.getProperty('artifactoryPassword')
+          }
+        } else {
+          username = settings.ext.artifactoryUser
+          password = settings.ext.artifactoryPassword
+        }
+      }
+    }
+  }
+}
+
+ext.rootDir = file('..')
+
+apply from: new File(ext.rootDir, 'buildSrc/gradle/load-properties.gradle')
+
+apply from: new File(ext.rootDir, 'gradle/build-cache.gradle')
+
+// apply from: new File(ext.rootDir, 'gradle/subprojects.gradle')

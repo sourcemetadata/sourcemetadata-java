@@ -1,0 +1,12 @@
+// SPDX-Copyright: ©  Basil Peace
+// SPDX-License-Identifier: Apache-2.0
+File gradlePropertiesFile = new File(ext.rootDir, Project.GRADLE_PROPERTIES)
+if (gradlePropertiesFile.exists()) {
+  gradlePropertiesFile.withReader { Reader reader ->
+    Properties properties = new Properties()
+    properties.load(reader)
+    for (String key : properties.stringPropertyNames()) {
+      ext.set(key, properties.getProperty(key))
+    }
+  }
+}

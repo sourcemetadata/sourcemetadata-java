@@ -1,0 +1,14 @@
+// SPDX-Copyright: ©  Basil Peace
+// SPDX-License-Identifier: Apache-2.0
+plugins {
+  id 'org.fidata.project'
+  // id 'org.fidata.metadata'
+}
+
+group = 'org.fidata.metadata' // TODO
+
+// ext.rootDir = file('.')
+
+tasks.named('codenarcBuildSrc').configure {
+  disabledRules.addAll 'JavaIoPackageAccess' // TODO, 'DuplicateNumberLiteral'
+}
