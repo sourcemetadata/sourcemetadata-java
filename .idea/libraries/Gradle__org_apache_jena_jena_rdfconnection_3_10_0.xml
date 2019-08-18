@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.jena:jena-rdfconnection:3.10.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.jena/jena-rdfconnection/3.10.0/f2b03f2b286b5fbdc8fd5edefbee95cb07368764/jena-rdfconnection-3.10.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.jena/jena-rdfconnection/3.10.0/c01f5144ca289b00e4dd18742985d0bd67bb6751/jena-rdfconnection-3.10.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

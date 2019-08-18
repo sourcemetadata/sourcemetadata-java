@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.maven.scm:maven-scm-provider-git-commons:1.11.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.scm/maven-scm-provider-git-commons/1.11.2/bb6f91663b4859b2962cab1bf3bc3b867c34fd1a/maven-scm-provider-git-commons-1.11.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.scm/maven-scm-provider-git-commons/1.11.2/4aaf594ba1f115615c779c328dedfc8f59ae6ae6/maven-scm-provider-git-commons-1.11.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

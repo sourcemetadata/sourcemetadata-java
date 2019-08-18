@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.jena:jena-dboe-transaction:3.10.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.jena/jena-dboe-transaction/3.10.0/6f0d8689a6c2373ed944e245625976aa9ba90748/jena-dboe-transaction-3.10.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.jena/jena-dboe-transaction/3.10.0/1425333bf46b917b858029410018624dfa8451c9/jena-dboe-transaction-3.10.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

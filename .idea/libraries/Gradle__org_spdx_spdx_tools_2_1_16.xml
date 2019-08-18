@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.spdx:spdx-tools:2.1.16">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.spdx/spdx-tools/2.1.16/1f2c91bf90adb0a4d8086e0f4f32ca396e3b5666/spdx-tools-2.1.16.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.spdx/spdx-tools/2.1.16/9aa943ed799c2febbb398bd8390aa77a34ea2477/spdx-tools-2.1.16-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

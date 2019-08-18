@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.jonpeterson:jackson-module-model-versioning:1.2.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.jonpeterson/jackson-module-model-versioning/1.2.2/791e0c62b4362585d04dc42fc15c0300217c5de/jackson-module-model-versioning-1.2.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.jonpeterson/jackson-module-model-versioning/1.2.2/b4ce39fb7e796c40cc30b7266d61c2468cbc75c4/jackson-module-model-versioning-1.2.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

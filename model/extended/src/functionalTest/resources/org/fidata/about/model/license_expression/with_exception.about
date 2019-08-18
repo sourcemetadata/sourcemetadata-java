@@ -1,0 +1,13 @@
+# SPDX-FileCopyrightText: ©  Basil Peace
+# SPDX-License-Identifier: Apache-2.0
+about_resource: .
+name: with_exception
+license_expression: GPL-3.0-or-later WITH GCC-exception-3.1
+# WORKAROUND:
+# Even standard SPDX exceptions require its text provided
+# It is a bug, see https://github.com/spdx/tools/issues/186
+# <grv87 2019-05-25>
+licenses:
+  - key: GPL-3.0
+  - key: GCC-exception-3.1
+    file: GCC-exception-3.1.txt

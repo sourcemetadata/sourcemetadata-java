@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.maven.scm:maven-scm-manager-plexus:1.11.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.scm/maven-scm-manager-plexus/1.11.2/c1ea350ee0a934c7fe70e8c6d89f8a2684d17929/maven-scm-manager-plexus-1.11.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.scm/maven-scm-manager-plexus/1.11.2/296d24cca2a57aca5c441b491571d8644ed38759/maven-scm-manager-plexus-1.11.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

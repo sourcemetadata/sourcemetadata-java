@@ -1,0 +1,64 @@
+// SPDX-FileCopyrightText: ©  Basil Peace
+// SPDX-License-Identifier: Apache-2.0
+plugins {
+  id 'org.fidata.project.java'
+}
+publicReleases = true // TODO
+
+group = parent.group // TODO
+
+ext.rootDir = file('.')
+
+dependencies {
+  implementation(group: 'com.google.guava', name: 'guava', version: '25.1-jre')
+  implementation(group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '[2.9, 3[')
+  implementation(group: 'com.fasterxml.jackson.datatype', name: 'jackson-datatype-guava', version: '[2.9, 3[')
+  implementation(group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-yaml', version: '[2.9, 3[')
+  implementation(group: 'com.github.jonpeterson', name: 'jackson-module-model-versioning', version: '[1.2.2, 2[')
+  api(group: 'org.spdx', name: 'spdx-tools', version: '[2.1.15, 3[')
+  api(group: 'com.ibm.icu', name: 'icu4j', version: '[64.0, 65[')
+}
+
+configurations {
+  testFixtures
+}
+
+sourceSets {
+  testFixtures {
+    groovy.srcDirs = ['src/testFixtures/groovy']
+  }
+}
+
+dependencies {
+  testFixturesCompile localGroovy()
+  testFixturesCompile group: 'com.google.guava', name: 'guava', version: '25.1-jre'
+  testCompile localGroovy()
+  testCompile sourceSets.testFixtures.output
+  functionalTestCompile sourceSets.testFixtures.output
+  functionalTestCompile group: 'pl.pragmatists', name: 'JUnitParams', version: '[1, 2['
+  /*
+   * CAVEAT:
+   * Gradle doesn't handle dependencyManagement (BOM) strictly.
+   * See https://github.com/gradle/gradle/issues/4979
+   * So, we have to use direct dependency instead of constraints
+   * TODO: Test on fresh Gradle
+   */
+  /*
+   * Required to overcome errors in IDEA Groovy console:
+   * ERROR org.apache.jena.util.Metadata - Unexpected Throwable
+   * java.lang.LinkageError: loader constraint violation: when resolving overridden method
+   * "org.apache.xerces.jaxp.DocumentBuilderImpl.setErrorHandler(Lorg/xml/sax/ErrorHandler;)V"
+   * the class loader (instance of org/codehaus/groovy/tools/RootLoader) of the current class,
+   * org/apache/xerces/jaxp/DocumentBuilderImpl, and its superclass loader (instance of <bootloader>),
+   * have different Class objects for the type org/xml/sax/ErrorHandler used in the signature
+   */
+  runtimeOnly(group: 'xerces', name: 'xercesImpl', version: '[2.12.0, 3[')
+}
+
+task testFixturesJar(type: Jar) {
+  from sourceSets.testFixtures.output
+  classifier 'testFixtures'
+}
+artifacts {
+  testFixtures testFixturesJar
+}

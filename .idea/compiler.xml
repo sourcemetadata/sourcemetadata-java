@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="org.fidata.metadata.buildSrc.main" target="11" />
+      <module name="org.fidata.metadata.buildSrc.test" target="11" />
+      <module name="org.fidata.metadata.gradle.extended.compatTest" target="11" />
+      <module name="org.fidata.metadata.gradle.extended.functionalTest" target="11" />
+      <module name="org.fidata.metadata.gradle.extended.gradleTest" target="11" />
+      <module name="org.fidata.metadata.gradle.extended.main" target="11" />
+      <module name="org.fidata.metadata.gradle.extended.test" target="11" />
+      <module name="org.fidata.metadata.gradle.jvm.bintray.bintray.compatTest" target="11" />
+      <module name="org.fidata.metadata.gradle.jvm.bintray.bintray.functionalTest" target="11" />
+      <module name="org.fidata.metadata.gradle.jvm.bintray.bintray.gradleTest" target="11" />
+      <module name="org.fidata.metadata.gradle.jvm.bintray.bintray.main" target="11" />
+      <module name="org.fidata.metadata.gradle.jvm.bintray.bintray.test" target="11" />
+      <module name="org.fidata.metadata.gradle.jvm.ivy.ivy.compatTest" target="11" />
+      <module name="org.fidata.metadata.gradle.jvm.ivy.ivy.functionalTest" target="11" />
+      <module name="org.fidata.metadata.gradle.jvm.ivy.ivy.gradleTest" target="11" />
+      <module name="org.fidata.metadata.gradle.jvm.ivy.ivy.main" target="11" />
+      <module name="org.fidata.metadata.gradle.jvm.ivy.ivy.test" target="11" />
+      <module name="org.fidata.metadata.gradle.jvm.maven.maven.compatTest" target="11" />
+      <module name="org.fidata.metadata.gradle.jvm.maven.maven.functionalTest" target="11" />
+      <module name="org.fidata.metadata.gradle.jvm.maven.maven.gradleTest" target="11" />
+      <module name="org.fidata.metadata.gradle.jvm.maven.maven.main" target="11" />
+      <module name="org.fidata.metadata.gradle.jvm.maven.maven.test" target="11" />
+      <module name="org.fidata.metadata.gradle.jvm.plugin_publish.plugin-publish.compatTest" target="11" />
+      <module name="org.fidata.metadata.gradle.jvm.plugin_publish.plugin-publish.functionalTest" target="11" />
+      <module name="org.fidata.metadata.gradle.jvm.plugin_publish.plugin-publish.gradleTest" target="11" />
+      <module name="org.fidata.metadata.gradle.jvm.plugin_publish.plugin-publish.main" target="11" />
+      <module name="org.fidata.metadata.gradle.jvm.plugin_publish.plugin-publish.test" target="11" />
+      <module name="org.fidata.metadata.gradle.nebula.contacts.compatTest" target="11" />
+      <module name="org.fidata.metadata.gradle.nebula.contacts.functionalTest" target="11" />
+      <module name="org.fidata.metadata.gradle.nebula.contacts.gradleTest" target="11" />
+      <module name="org.fidata.metadata.gradle.nebula.contacts.main" target="11" />
+      <module name="org.fidata.metadata.gradle.nebula.contacts.test" target="11" />
+      <module name="org.fidata.metadata.gradle.toolkit.toolkit-base.compatTest" target="11" />
+      <module name="org.fidata.metadata.gradle.toolkit.toolkit-base.functionalTest" target="11" />
+      <module name="org.fidata.metadata.gradle.toolkit.toolkit-base.gradleTest" target="11" />
+      <module name="org.fidata.metadata.gradle.toolkit.toolkit-base.main" target="11" />
+      <module name="org.fidata.metadata.gradle.toolkit.toolkit-base.test" target="11" />
+      <module name="org.fidata.metadata.gradle.toolkit.toolkit.compatTest" target="11" />
+      <module name="org.fidata.metadata.gradle.toolkit.toolkit.functionalTest" target="11" />
+      <module name="org.fidata.metadata.gradle.toolkit.toolkit.gradleTest" target="11" />
+      <module name="org.fidata.metadata.gradle.toolkit.toolkit.main" target="11" />
+      <module name="org.fidata.metadata.gradle.toolkit.toolkit.test" target="11" />
+      <module name="org.fidata.metadata.model.extended.functionalTest" target="11" />
+      <module name="org.fidata.metadata.model.extended.main" target="11" />
+      <module name="org.fidata.metadata.model.extended.test" target="11" />
+      <module name="org.fidata.metadata.model.extended.testFixtures" target="11" />
+      <module name="org.fidata.metadata.model.jvm.maven.maven.functionalTest" target="11" />
+      <module name="org.fidata.metadata.model.jvm.maven.maven.main" target="11" />
+      <module name="org.fidata.metadata.model.jvm.maven.maven.test" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

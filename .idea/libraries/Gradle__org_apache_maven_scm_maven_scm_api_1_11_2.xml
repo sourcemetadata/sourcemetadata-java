@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.maven.scm:maven-scm-api:1.11.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.scm/maven-scm-api/1.11.2/b8ce0efa5debfe6571d3b7e924c48118a5bc70f5/maven-scm-api-1.11.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.scm/maven-scm-api/1.11.2/1e8469710a3fcebee025df43d1bf7fd94f8270f0/maven-scm-api-1.11.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

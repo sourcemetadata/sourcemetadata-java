@@ -1,0 +1,9 @@
+# SPDX-FileCopyrightText: ©  Basil Peace
+# SPDX-License-Identifier: Apache-2.0
+about_resource: .
+name: extended
+extended_versioning_schema: semver-2.0.0
+extended_keywords:
+  - extended
+  - expanded
+  - example

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.spullara.mustache.java:compiler:0.7.9">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.spullara.mustache.java/compiler/0.7.9/ff7dba87e24f6074a84f31e2ab7c041e3e94e35b/compiler-0.7.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.spullara.mustache.java/compiler/0.7.9/1014c81c0c36ca20359e6094af3bf94ee2d6ea2e/compiler-0.7.9-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

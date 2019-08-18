@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.athaydes:spock-reports:1.6.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.athaydes/spock-reports/1.6.2/40ce27274ac2af82d850a096b053c82c7a1633fa/spock-reports-1.6.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.athaydes/spock-reports/1.6.2/818d57d38a9fb7ecdcead1502dd4ea4d3098c04b/spock-reports-1.6.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,5 @@
+# SPDX-FileCopyrightText: ©  Basil Peace
+# SPDX-License-Identifier: Apache-2.0
+about_resource: .
+name: valid
+license_expression: Apache-2.0

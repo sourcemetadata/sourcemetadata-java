@@ -1,0 +1,50 @@
+# SPDX-FileCopyrightText: ©  Basil Peace
+# SPDX-License-Identifier: Apache-2.0
+about_resource: .
+name: maven
+extended_versioning_schema: semver-2.0.0
+maven_inception_year: 2019, very good year
+licenses:
+  - key: Apache-2.0
+    name: Apache License 2.0
+    maven_comments: permissive license
+    maven_distribution: repo
+vcs_tool: git
+vcs_repository: https://git.example.com/maven/
+maven_vcs_url: https://git-web.example.com/maven/
+maven_vcs_developer_connection_url: ssh://git.example.com/maven/
+maven_organization:
+  name: Example Inc.
+  url: https://example.com/
+maven_developers:
+  - id: john_doe
+    name: John Doe
+    organization: Example Inc.
+    roles:
+      - owner
+      - developer
+    timezone: America/Argentina/Mendoza
+    properties:
+      custom_property: custom_property_value
+maven_contributors:
+  - name: Jane Doe
+    organization: Samples Ltd
+    roles:
+      - developer
+    timezone: Asia/China/Beijing
+    properties:
+      sex: female
+maven_issue_management:
+  system: Example BugTracker
+  url: https://bugs.example.com/maven/
+maven_ci_management:
+  system: ExampleCI
+  url: https://ci.example.com/maven/
+maven_mailing_lists:
+  - subscribe: subscribe@maillist.example.com
+    unsubscribe: unsubscribe@maillist.example.com
+    post: post@maillist.example.com
+    archive_url: https://maillist.example.com/archive
+extended_keywords:
+  - maven
+  - example
