@@ -1,0 +1,3 @@
+= sourcemetadata-java
+
+Implementation of Source Metadata specification for Java and Gradle.
